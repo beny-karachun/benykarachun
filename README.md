@@ -18,8 +18,8 @@ Then open `http://localhost:4173`.
 - `styles.css` — responsive visual system and motion
 - `script.js` — navigation, reveal effects, progress indicator, and pointer detail
 - `resume.html` / `resume.css` — accessible résumé generated from the newer `CV_Draft.md` content
-- `benjamin-karachun-resume.pdf` — current two-page A4 download
-- `CV_Draft.pdf` — older résumé retained only as a backup; it is not linked from the website
+- `benjamin-karachun-resume.pdf` — current one-page A4 download
+- `CV_Draft.pdf` — legacy filename kept in sync with the current résumé
 
 ## Updating projects
 

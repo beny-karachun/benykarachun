@@ -60,7 +60,8 @@ Specialization: Computational Biotechnology, Food Engineering and Health
 
 **Web Developer** | *Aviator.co.il*
 
-- Maintained production WordPress infrastructure, handled updates, managed assets, and resolved operational issues.
+- Rebuilt the legacy WordPress/Elementor site as lean, responsive static HTML, CSS, and JavaScript while preserving its content and URLs.
+- Maintained production infrastructure, managed updates and assets, and resolved operational issues.
 
 ---
 

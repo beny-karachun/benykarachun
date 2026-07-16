@@ -340,12 +340,16 @@ dd {
 }
 
 .projects-section {
+  margin-top: 0;
+}
+
+.experience-section {
   margin-top: 5.5mm;
 }
 
 .compact-section {
-  padding-bottom: 3.8mm;
-  margin-bottom: 3.8mm;
+  padding-bottom: 2.7mm;
+  margin-bottom: 2.7mm;
   box-shadow: 0 1px 0 var(--line);
 }
 
@@ -358,7 +362,7 @@ dd {
   display: grid;
   grid-template-columns: 7mm 1fr;
   align-items: baseline;
-  margin-bottom: 2.5mm;
+  margin-bottom: 1.8mm;
   gap: 2mm;
 }
 
@@ -387,7 +391,7 @@ dd {
 }
 
 .tool-list > div {
-  padding: 1.8mm 0;
+  padding: 1.2mm 0;
   box-shadow: 0 1px 0 var(--line);
 }
 

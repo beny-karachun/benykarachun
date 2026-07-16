@@ -1,5 +1,5 @@
 # Benjamin Karachun
-**Biotechnology & Food Engineering | Software Development | Applied AI**
+**Biotechnology & Food Engineering | Scientific Computing | Laboratory & Data Analysis**
 
 Israel | 054-612-3730 | kbeniamin@campus.technion.ac.il | [LinkedIn](https://www.linkedin.com/in/beny-karachun-5a5188369/) | [GitHub](https://github.com/beny-karachun)
 
@@ -7,7 +7,7 @@ Israel | 054-612-3730 | kbeniamin@campus.technion.ac.il | [LinkedIn](https://www
 
 ### PROFILE
 
-Biotechnology and Food Engineering student at the Technion, specializing in computational biotechnology. I build browser-based tools for scientific computing, education, and data workflows using Python, TypeScript/JavaScript, React, SQLite, and WebAssembly.
+Biotechnology and Food Engineering student at the Technion, specializing in computational biotechnology, with hands-on training in microbiology, molecular biology, analytical methods, and quantitative analysis. I build validated scientific tools that translate laboratory calculations and public-health datasets into transparent workflows. Seeking a biotech internship or research-lab role.
 
 ---
 
@@ -17,15 +17,22 @@ Biotechnology and Food Engineering student at the Technion, specializing in comp
 **B.Sc. in Biotechnology and Food Engineering** | *Expected 2027*  
 Specialization: Computational Biotechnology, Food Engineering and Health
 
+**Relevant coursework and laboratories:** Analytical Methods, Microbiology, Food Microbiology, Molecular Biotechnology, Biochemistry, and Metabolic Pathways
+
 ---
 
-### SELECTED PROJECTS
+### SCIENTIFIC & SOFTWARE PROJECTS
 
-**MathPaster** | *Developer* | [mathpaster.com](https://mathpaster.com)
+**CFU Calculator** | *Developer* | [beny-karachun.github.io/CFU-calculator](https://beny-karachun.github.io/CFU-calculator/)
 
-- Built a Chrome extension and web editor for composing mathematics visually and inserting clean LaTeX into AI chat interfaces.
-- Implemented MathLive-based WYSIWYG editing, autocomplete, symbol palettes, matrix tools, history, and a keyboard-triggered overlay.
-- Designed the workflow to keep equation history and editing local to the browser.
+- Built an interactive CFU/mL calculator for serial-dilution plate counts, with technical and biological replicates, countability validation, uncertainty estimates, detection limits, and step-by-step calculations.
+- Earned the highest laboratory bonus in the cohort after instructor evaluation.
+
+**Shoresh** | *Developer* | [beny-karachun.github.io/Shoresh](https://beny-karachun.github.io/Shoresh/)
+
+- Built a course-tailored alternative to Tzameret from public Israeli Ministry of Health datasets, supporting food and nutrient analysis, recipes, processing-retention calculations, comparisons, and label generation.
+- Developed the Python ETL pipeline and in-browser SQLite/WebAssembly data layer.
+- Validated shared calculations side by side with the course teaching assistant against Tzameret, reproducing identical outputs for matched inputs; awarded 20 course bonus points.
 
 **TechnionPrep** | *Developer* | [bfe.technionprep.com](https://bfe.technionprep.com)
 
@@ -33,16 +40,11 @@ Specialization: Computational Biotechnology, Food Engineering and Health
 - Developed the current static application with Next.js, React, and TypeScript.
 - Organized course materials, summaries, and interactive study tools into a single searchable resource.
 
-**Shoresh** | *Developer* | [beny-karachun.github.io/Shoresh](https://beny-karachun.github.io/Shoresh/)
+**MathPaster** | *Developer* | [mathpaster.com](https://mathpaster.com)
 
-- Built a browser-based nutrition workspace using the Israeli Ministry of Health food database.
-- Developed a Python ETL pipeline that cleans government data and produces the SQLite dataset used by the application.
-- Runs SQLite in the browser through WebAssembly and supports food search, comparisons, recipes, daily calculations, and nutrition-label generation.
-
-**Python Code Tester** | *Developer* | [pythontester.technionprep.com](https://pythontester.technionprep.com/)
-
-- Built an in-browser homework tester that runs uploaded Python solutions against input and expected-output cases without uploading source code.
-- Implemented local execution with Pyodide and Web Workers, plus bulk folder and ZIP imports and structured result comparison.
+- Built a Chrome extension and web editor for composing mathematics visually and inserting clean LaTeX into AI chat interfaces.
+- Implemented MathLive-based WYSIWYG editing, autocomplete, symbol palettes, matrix tools, history, and a keyboard-triggered overlay.
+- Designed the workflow to keep equation history and editing local to the browser.
 
 ---
 
@@ -65,13 +67,26 @@ Specialization: Computational Biotechnology, Food Engineering and Health
 
 ---
 
+### RESEARCH INTERESTS
+
+Antimicrobial resistance; *Staphylococcus aureus*; host-directed immune engineering and immune modulation; gene and cell editing; computational and AI-guided therapeutic design.
+
+---
+
+### LABORATORY & QUANTITATIVE SKILLS
+
+- **Microbiology:** Aseptic technique, media preparation and inoculation, streak plating, serial dilution, viable colony counting, Gram staining, microscopy, disc diffusion, zone-of-inhibition measurement, MIC assays
+- **Molecular Biology:** PCR, gel electrophoresis
+- **Analytical Methods:** Spectrophotometry, chromatography, 96-well plate assays
+- **Scientific Analysis:** Calibration and standard curves, concentration calculations, regression, uncertainty and error analysis, statistical comparisons
+
+---
+
 ### TECHNICAL SKILLS
 
-**Languages:** Python, TypeScript/JavaScript, SQL  
-**Frontend:** React, Next.js, HTML/CSS  
-**Data & Browser Runtimes:** NumPy, Pandas, SQLite, WebAssembly, Pyodide  
-**Platforms & Tooling:** Firebase, REST APIs, Chrome Extensions, Git, Docker, Linux/Bash  
-**Applied AI:** OpenAI, Gemini, and Claude APIs; structured JSON outputs; schema validation; prompt and evaluation workflows; RTL/LTR and MathJax content pipelines
+- **Data & Programming:** Python, Pandas, NumPy, SQL, SQLite, Excel
+- **Web & Browser Runtimes:** TypeScript/JavaScript, React, Next.js, HTML/CSS, WebAssembly, Pyodide
+- **Platforms & Tooling:** Firebase, REST APIs, Chrome Extensions, Git, Docker, Linux/Bash
+- **Applied AI:** OpenAI, Gemini, and Claude APIs; structured JSON outputs; schema validation; prompt and evaluation workflows
 
-**Laboratory:** PCR, gel electrophoresis, aseptic technique, plate culture and counting methods, 96-well plate readers, spectrophotometry  
 **Languages:** Hebrew (native), English (fluent), Russian (fluent)

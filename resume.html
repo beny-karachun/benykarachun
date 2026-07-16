@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Résumé of Benjamin Karachun—biotechnology student and software developer building tools for science, education, and data workflows.">
+    <meta name="description" content="Résumé of Benjamin Karachun—Biotechnology and Food Engineering student building validated scientific tools for laboratory and data workflows.">
     <meta name="theme-color" content="#0b0d0c">
     <title>Résumé — Benjamin Karachun</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -34,8 +34,8 @@
 
           <div class="resume-identity">
             <p>Biotechnology &amp; Food Engineering</p>
-            <p>Software Development</p>
-            <p>Applied AI</p>
+            <p>Scientific Computing</p>
+            <p>Laboratory &amp; Data Analysis</p>
           </div>
 
           <address>
@@ -52,16 +52,61 @@
           <div>
             <h2 id="profile-title">Profile</h2>
             <p>
-              Biotechnology and Food Engineering student at the Technion, specializing in computational biotechnology. Builds browser-based tools for scientific computing, education, and data workflows using Python, TypeScript/JavaScript, React, SQLite, and WebAssembly.
+              Biotechnology and Food Engineering student at the Technion, specializing in computational biotechnology, with hands-on training in microbiology, molecular biology, analytical methods, and quantitative analysis. Builds validated scientific tools that translate laboratory calculations and public-health datasets into transparent workflows. Seeking a biotech internship or research-lab role.
             </p>
           </div>
         </section>
 
         <div class="resume-content-grid">
           <div class="resume-main-column">
-            <section class="resume-section" aria-labelledby="experience-title">
+            <section class="resume-section projects-section" aria-labelledby="projects-title">
               <div class="section-title">
                 <span class="section-number">01</span>
+                <h2 id="projects-title">Scientific &amp; software projects</h2>
+              </div>
+
+              <article class="resume-entry project-entry">
+                <div class="entry-heading">
+                  <div><h3>CFU Calculator</h3><span>Microbiology · Quantitative analysis · JavaScript</span></div>
+                  <a href="https://beny-karachun.github.io/CFU-calculator/">Open tool ↗</a>
+                </div>
+                <ul>
+                  <li>Built an interactive CFU/mL calculator for serial-dilution plate counts, with technical and biological replicates, countability validation, uncertainty estimates, detection limits, and step-by-step calculations.</li>
+                  <li>Earned the highest laboratory bonus in the cohort after instructor evaluation.</li>
+                </ul>
+              </article>
+
+              <article class="resume-entry project-entry">
+                <div class="entry-heading">
+                  <div><h3>Shoresh</h3><span>Python ETL · SQLite · WebAssembly</span></div>
+                  <a href="https://beny-karachun.github.io/Shoresh/">Open tool ↗</a>
+                </div>
+                <ul>
+                  <li>Built a course-tailored alternative to Tzameret from public Israeli Ministry of Health datasets, supporting food and nutrient analysis, recipes, processing-retention calculations, comparisons, and label generation.</li>
+                  <li>Validated shared calculations side by side with the course teaching assistant against Tzameret, reproducing identical outputs for matched inputs; awarded 20 course bonus points.</li>
+                </ul>
+              </article>
+
+              <article class="resume-entry project-entry">
+                <div class="entry-heading">
+                  <div><h3>TechnionPrep</h3><span>Next.js · React · TypeScript</span></div>
+                  <a href="https://bfe.technionprep.com">bfe.technionprep.com ↗</a>
+                </div>
+                <p>Built and deployed a semester-by-semester study hub that organizes course materials, summaries, and interactive tools for Technion Biotechnology and Food Engineering students.</p>
+              </article>
+
+              <article class="resume-entry project-entry">
+                <div class="entry-heading">
+                  <div><h3>MathPaster</h3><span>Chrome extension + web editor</span></div>
+                  <a href="https://mathpaster.com">mathpaster.com ↗</a>
+                </div>
+                <p>Built a MathLive-based WYSIWYG editor with autocomplete, matrix tools, history, and direct LaTeX insertion into AI chat interfaces. Equation data stays local to the browser.</p>
+              </article>
+            </section>
+
+            <section class="resume-section experience-section" aria-labelledby="experience-title">
+              <div class="section-title">
+                <span class="section-number">02</span>
                 <h2 id="experience-title">Experience</h2>
               </div>
 
@@ -95,45 +140,6 @@
                 </ul>
               </article>
             </section>
-
-            <section class="resume-section projects-section" aria-labelledby="projects-title">
-              <div class="section-title">
-                <span class="section-number">02</span>
-                <h2 id="projects-title">Selected projects</h2>
-              </div>
-
-              <article class="resume-entry project-entry">
-                <div class="entry-heading">
-                  <div><h3>MathPaster</h3><span>Chrome extension + web editor</span></div>
-                  <a href="https://mathpaster.com">mathpaster.com ↗</a>
-                </div>
-                <p>Built a MathLive-based WYSIWYG editor with autocomplete, matrix tools, history, and direct LaTeX insertion into AI chat interfaces. Equation data stays local to the browser.</p>
-              </article>
-
-              <article class="resume-entry project-entry">
-                <div class="entry-heading">
-                  <div><h3>TechnionPrep</h3><span>Next.js · React · TypeScript</span></div>
-                  <a href="https://bfe.technionprep.com">bfe.technionprep.com ↗</a>
-                </div>
-                <p>Built and deployed a semester-by-semester study hub that organizes course materials, summaries, and interactive tools for Technion Biotechnology and Food Engineering students.</p>
-              </article>
-
-              <article class="resume-entry project-entry">
-                <div class="entry-heading">
-                  <div><h3>Shoresh</h3><span>Python ETL · SQLite · WebAssembly</span></div>
-                  <a href="https://beny-karachun.github.io/Shoresh/">Open project ↗</a>
-                </div>
-                <p>Developed a Python ETL pipeline for Israeli Ministry of Health food data and a browser-based SQLite application for nutrition search, comparison, recipes, and label generation.</p>
-              </article>
-
-              <article class="resume-entry project-entry">
-                <div class="entry-heading">
-                  <div><h3>Python Code Tester</h3><span>Pyodide · Web Workers · JSZip</span></div>
-                  <a href="https://pythontester.technionprep.com/">Open project ↗</a>
-                </div>
-                <p>Built a private, in-browser homework tester that runs uploaded Python solutions against input/output cases locally, with bulk folder and ZIP import and structured result comparison.</p>
-              </article>
-            </section>
           </div>
 
           <aside class="resume-side-column" aria-label="Education and technical capabilities">
@@ -147,42 +153,41 @@
                 <p>B.Sc. Biotechnology &amp; Food Engineering</p>
                 <small>Expected 2027 · Haifa, Israel</small>
                 <small>Computational Biotechnology, Food Engineering &amp; Health</small>
+                <small><strong>Relevant coursework:</strong> Analytical Methods, Microbiology, Food Microbiology, Molecular Biotechnology, Biochemistry, and Metabolic Pathways</small>
               </div>
             </section>
 
-            <section class="resume-section compact-section" aria-labelledby="technical-title">
+            <section class="resume-section compact-section" aria-labelledby="research-title">
               <div class="compact-title">
                 <span class="section-number">04</span>
-                <h2 id="technical-title">Technical</h2>
+                <h2 id="research-title">Research interests</h2>
               </div>
-              <dl class="tool-list">
-                <div><dt>Languages</dt><dd>Python, TypeScript/JavaScript, SQL</dd></div>
-                <div><dt>Frontend</dt><dd>React, Next.js, HTML/CSS</dd></div>
-                <div><dt>Data &amp; runtimes</dt><dd>NumPy, Pandas, SQLite, WebAssembly, Pyodide</dd></div>
-                <div><dt>Platforms</dt><dd>Firebase, REST APIs, Chrome Extensions</dd></div>
-                <div><dt>Tooling</dt><dd>Git, Docker, Linux/Bash</dd></div>
-              </dl>
-            </section>
-
-            <section class="resume-section compact-section" aria-labelledby="ai-title">
-              <div class="compact-title">
-                <span class="section-number">05</span>
-                <h2 id="ai-title">Applied AI</h2>
-              </div>
-              <ul class="compact-list">
-                <li>OpenAI, Gemini, and Claude API integration</li>
-                <li>Structured JSON outputs and schema validation</li>
-                <li>Prompt and evaluation workflows</li>
-                <li>RTL/LTR and MathJax content pipelines</li>
-              </ul>
+              <p class="side-copy">Antimicrobial resistance; <i>Staphylococcus aureus</i>; host-directed immune engineering and immune modulation; gene and cell editing; computational and AI-guided therapeutic design.</p>
             </section>
 
             <section class="resume-section compact-section" aria-labelledby="lab-title">
               <div class="compact-title">
-                <span class="section-number">06</span>
+                <span class="section-number">05</span>
                 <h2 id="lab-title">Laboratory</h2>
               </div>
-              <p class="side-copy">PCR, gel electrophoresis, aseptic technique, plate culture and counting, 96-well plate readers, and spectrophotometry.</p>
+              <dl class="tool-list">
+                <div><dt>Microbiology</dt><dd>Aseptic technique, media preparation and inoculation, streak plating, serial dilution, viable colony counting, Gram staining, microscopy, disc diffusion, zones of inhibition, and MIC assays</dd></div>
+                <div><dt>Molecular biology</dt><dd>PCR and gel electrophoresis</dd></div>
+                <div><dt>Analytical</dt><dd>Spectrophotometry, chromatography, and 96-well plate assays</dd></div>
+              </dl>
+            </section>
+
+            <section class="resume-section compact-section" aria-labelledby="technical-title">
+              <div class="compact-title">
+                <span class="section-number">06</span>
+                <h2 id="technical-title">Quantitative &amp; technical</h2>
+              </div>
+              <dl class="tool-list">
+                <div><dt>Scientific analysis</dt><dd>Calibration and standard curves, concentration calculations, regression, uncertainty and error analysis, statistical comparisons</dd></div>
+                <div><dt>Data &amp; programming</dt><dd>Python, Pandas, NumPy, SQL, SQLite, Excel</dd></div>
+                <div><dt>Web &amp; runtimes</dt><dd>TypeScript/JavaScript, React, HTML/CSS, WebAssembly, Pyodide</dd></div>
+                <div><dt>Tooling &amp; AI</dt><dd>Git, Docker, Linux/Bash; OpenAI, Gemini, and Claude APIs</dd></div>
+              </dl>
             </section>
 
             <section class="resume-section compact-section languages-section" aria-labelledby="languages-title">
@@ -190,11 +195,7 @@
                 <span class="section-number">07</span>
                 <h2 id="languages-title">Languages</h2>
               </div>
-              <dl class="language-list">
-                <div><dt>Hebrew</dt><dd>Native</dd></div>
-                <div><dt>English</dt><dd>Fluent</dd></div>
-                <div><dt>Russian</dt><dd>Fluent</dd></div>
-              </dl>
+              <p class="side-copy"><strong>Hebrew</strong> (native) · <strong>English</strong> (fluent) · <strong>Russian</strong> (fluent)</p>
             </section>
           </aside>
         </div>
